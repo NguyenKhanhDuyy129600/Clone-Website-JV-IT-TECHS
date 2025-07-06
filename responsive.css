@@ -1,0 +1,617 @@
+/* ====== SECTION CONCERNS ====== */
+.jv-concerns-section {
+  padding: 40px 20px;
+  background-color: #1a252f;
+  min-height: 100vh;
+}
+
+.jv-concerns-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+}
+
+.jv-concerns-left {
+  flex: 1;
+}
+
+.jv-concern-wrapper {
+  position: sticky;
+  top: 180px;
+  min-height: 400px;
+  z-index: 5;
+}
+
+.jv-concerns-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 300px;
+}
+
+/* ====== MEDIA QUERIES ====== */
+
+/* --- Mobile Styles (max-width: 979px) --- */
+@media (max-width: 979px) {
+  header {
+    background: url(./asset/image/Hero-mb.webp) no-repeat center/cover;
+    height: 800px;
+    transition: all 0.4s linear;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+  }
+
+  .nav-links,
+  nav .cta-group {
+    display: none;
+  }
+
+  .menu-icon {
+    display: flex;
+  }
+
+  .navbar .logo {
+    font-size: 3rem;
+    transition: all ease 0.2s;
+    -webkit-transition: all ease 0.2s;
+    -moz-transition: all ease 0.2s;
+    -ms-transition: all ease 0.2s;
+    -o-transition: all ease 0.2s;
+  }
+
+  .nav-links.menu {
+    top: 60px;
+    padding: 20px 0;
+  }
+
+  .nav-links.menu ul {
+    gap: 5px;
+  }
+
+  .nav-links.menu li {
+    padding: 5px 0;
+  }
+
+  .header-title {
+    font-size: 2.8rem;
+    transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+  }
+}
+
+/* --- Responsive Layout for Concerns Section (max-width: 900px) --- */
+@media (max-width: 900px) {
+  .jv-concerns-container {
+    flex-direction: column;
+  }
+
+  .jv-concerns-left {
+    min-height: auto;
+  }
+
+  .jv-concern-wrapper {
+    position: sticky;
+    top: 20px;
+    width: 100%;
+    background: #1a252f;
+    min-height: auto;
+    margin-top: 0;
+  }
+
+  .jv-concerns-right {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .jv-concern-image {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .jv-customer-bg {
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+  }
+
+  .jv-concern-img {
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+  }
+
+  .jv-concern-text {
+    width: 90%;
+    max-width: 330px;
+    margin: 0 auto;
+  }
+
+  .jv-concern-desc {
+    width: 90%;
+    max-width: 360px;
+    font-size: 1.2rem;
+  }
+}
+
+/* --- Tablet General (max-width: 1040px) --- */
+@media (max-width: 1040px) {
+  .jv-concern-desc {
+    width: 90%;
+    max-width: 400px;
+    font-size: 1.5rem;
+  }
+}
+
+/* --- Tablet Main Header (max-width: 1024px) --- */
+@media (max-width: 1024px) {
+  header.main-header {
+    background: url("./asset/image/Hero-mb.webp") no-repeat center center/cover;
+    height: 800px;
+    transition: height 0.3s ease;
+  }
+
+  .nav-links,
+  nav .cta-group {
+    display: none;
+  }
+
+  .menu-icon {
+    display: flex;
+  }
+
+  .navbar .logo {
+    font-size: 3rem;
+    transition: font-size 0.3s ease;
+  }
+
+  .nav-links.menu {
+    top: 60px;
+    padding: 20px 0;
+  }
+
+  .nav-links.menu ul {
+    gap: 10px;
+  }
+
+  .nav-links.menu li {
+    padding: 5px 0;
+  }
+
+  .header-title {
+    font-size: 2.8rem;
+    transition: font-size 0.3s ease;
+  }
+
+  .jv-manga-title {
+    font-size: 2.2rem;
+  }
+
+  .jv-manga-image {
+    background-image: url("./asset/image/Manga_mb.jpg");
+    height: 2200px;
+    transition: all 0.5s ease;
+  }
+
+  .jv-reasons-container,
+  .jv-reasons-container.active {
+    margin-top: 100px;
+  }
+
+  .jv-reasons-title {
+    font-size: 2.2rem;
+  }
+
+  .jv-achievements-slider {
+    max-width: 900px;
+  }
+
+  .jv-achievement-slide {
+    width: calc(900px * 0.33);
+  }
+
+  .jv-slider-prev {
+    left: 25%;
+  }
+
+  .jv-slider-next {
+    right: 25%;
+  }
+
+  .jv-about-image {
+    width: 80%;
+  }
+
+  .jv-about-container {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    /* justify-content: center; */
+  }
+
+  .jv-about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+  }
+
+  .jv-about-heading {
+    font-size: 2.2rem;
+    text-align: center;
+    width: 600px;
+  }
+
+  .jv-about-desc {
+    width: 600px;
+    font-size: 1.5rem;
+  }
+
+  .jv-team-section #next {
+    bottom: -220px;
+    right: 33.5%;
+  }
+
+  .jv-team-section #prev {
+    bottom: -220px;
+    right: 57.5%;
+  }
+
+  .jv-footer-container {
+    flex-direction: column;
+    width: 420px;
+    margin: 0 auto;
+  }
+
+  .jv-footer .logo {
+    font-size: 5.5rem;
+    margin: 0 auto;
+  }
+
+  .jv-footer-cta .cta-group {
+    font-size: 1.9rem;
+    padding: 25px 10px;
+  }
+
+  .jv-footer-column .copyright-text {
+    width: 420px;
+    font-size: 1.2rem;
+  }
+}
+
+/* --- Tablet Narrower (max-width: 800px) --- */
+@media (max-width: 800px) {
+  .jv-concern-desc {
+    width: 300px;
+    font-size: 1.2rem;
+  }
+}
+
+/* --- General Mobile (max-width: 768px) --- */
+@media (max-width: 768px) {
+  .jv-manga-title {
+    font-size: 2rem;
+  }
+
+  .jv-manga-desc {
+    font-size: 1rem;
+  }
+
+  .img__arrow img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .jv-reasons-container,
+  .jv-reasons-container.active {
+    flex-direction: column;
+  }
+
+  .jv-reasons-title {
+    font-size: 2rem;
+  }
+
+  .jv-reasons-desc {
+    font-size: 1rem;
+  }
+
+  .jv-reasons-image,
+  .jv-reasons-image.active {
+    height: 250px;
+  }
+
+  .jv-achievement-image::after {
+    width: 60px;
+    height: 60px;
+    box-shadow: 0 0 0 15px #000, 0 0 0 20px #fff;
+  }
+
+  .jv-testimonials-title {
+    font-size: 2rem;
+  }
+
+  .jv-logo-box {
+    width: 120px;
+  }
+
+  .jv-logo-box img {
+    max-height: 60px;
+  }
+
+  .jv-services-container {
+    flex-direction: column;
+  }
+
+  .jv-services-left {
+    margin-top: 0;
+  }
+
+  .jv-services-title {
+    font-size: 2rem;
+  }
+
+  .jv-services-heading {
+    font-size: 1.5rem;
+  }
+
+  .jv-services-desc {
+    font-size: 1rem;
+  }
+}
+
+/* --- Small Mobile (max-width: 640px) --- */
+@media (max-width: 640px) {
+  header.main-header {
+    height: 700px;
+  }
+
+  .jv-manga-title {
+    font-size: 1.8rem;
+  }
+
+  .jv-manga-desc {
+    font-size: 0.9rem;
+  }
+
+  .jv-reasons-title {
+    font-size: 1.8rem;
+  }
+
+  .jv-reasons-desc {
+    font-size: 0.9rem;
+  }
+
+  .jv-reasons-image,
+  .jv-reasons-image.active {
+    height: 220px;
+  }
+
+  .jv-concern-image {
+    width: 350px;
+    height: 250px;
+  }
+
+  .jv-concern-text {
+    width: 280px;
+    right: 50px;
+  }
+
+  .jv-achievements-slider {
+    max-width: 600px;
+  }
+
+  .jv-achievement-slide {
+    width: calc(600px * 0.5);
+  }
+
+  .jv-testimonials-title {
+    font-size: 1.8rem;
+  }
+
+  .jv-logo-box {
+    width: 100px;
+  }
+
+  .jv-services-title {
+    font-size: 1.8rem;
+  }
+
+  .jv-about-title {
+    font-size: 2.8rem;
+  }
+  .jv-about-heading {
+    width: 550px;
+    font-size: 1.6rem;
+  }
+  .jv-about-desc {
+    width: 550px;
+
+    font-size: 1rem;
+  }
+}
+
+/* --- Extra Small Devices (max-width: 480px) --- */
+@media (max-width: 480px) {
+  header.main-header {
+    height: 600px;
+  }
+
+  .jv-manga-title {
+    font-size: 1.6rem;
+  }
+
+  .jv-manga-desc {
+    font-size: 1rem;
+  }
+
+  .jv-reasons-title {
+    font-size: 1.6rem;
+  }
+
+  .jv-reasons-desc {
+    font-size: 1.2rem;
+  }
+
+  .jv-reasons-image,
+  .jv-reasons-image.active {
+    height: 200px;
+  }
+
+  .jv-concern-image {
+    width: 300px;
+    height: 200px;
+  }
+
+  .jv-concern-text {
+    width: 240px;
+    right: 30px;
+    font-size: 0.9rem;
+  }
+
+  .jv-achievements-slider {
+    max-width: 400px;
+  }
+
+  .jv-achievement-slide {
+    width: 100%;
+  }
+
+  .jv-slider-prev,
+  .jv-slider-next {
+    font-size: 3rem;
+  }
+  .jv-testimonials-title {
+    font-size: 1.6rem;
+  }
+
+  .jv-logo-box {
+    width: 80px;
+  }
+
+  .jv-logo-box img {
+    max-height: 50px;
+  }
+
+  .jv-services-title {
+    font-size: 1.6rem;
+  }
+
+  .jv-services-heading {
+    font-size: 1.3rem;
+  }
+
+  .jv-footer-logo .logo {
+    font-size: 5rem;
+  }
+
+  .jv-footer-cta .cta-group {
+    font-size: 1.5rem;
+  }
+}
+
+/* --- Ultra Small Devices (max-width: 320px) --- */
+@media (max-width: 320px) {
+  header.main-header {
+    height: 500px;
+  }
+
+  .navbar .logo {
+    font-size: 2.5rem;
+  }
+
+  .header-title {
+    font-size: 2rem;
+  }
+
+  .jv-manga-title {
+    font-size: 1.5rem;
+  }
+
+  .jv-manga-desc {
+    font-size: 0.9rem;
+  }
+
+  .jv-reasons-title {
+    font-size: 1.5rem;
+  }
+
+  .jv-reasons-desc {
+    font-size: 1rem;
+  }
+
+  .jv-reasons-image,
+  .jv-reasons-image.active {
+    height: 180px;
+  }
+
+  .jv-concerns-title {
+    font-size: 1.8rem;
+  }
+
+  .jv-concern-image {
+    width: 250px;
+    height: 180px;
+  }
+
+  .jv-concern-text {
+    width: 200px;
+    right: 25px;
+    font-size: 0.8rem;
+  }
+
+  .jv-achievements-title {
+    font-size: 1.8rem;
+  }
+
+  .jv-achievements-slider {
+    max-width: 300px;
+  }
+
+  .jv-achievement-slide {
+    width: 100%;
+    margin: 0 20px;
+  }
+
+  .jv-slider-prev,
+  .jv-slider-next {
+    font-size: 2.5rem;
+  }
+
+  .jv-testimonials-title {
+    font-size: 1.5rem;
+  }
+
+  .jv-logo-box {
+    width: 70px;
+  }
+
+  .jv-logo-box img {
+    max-height: 40px;
+  }
+
+  .jv-services-title {
+    font-size: 1.5rem;
+  }
+
+  .jv-services-heading {
+    font-size: 1.2rem;
+  }
+
+  .jv-footer-logo .logo {
+    font-size: 2rem;
+  }
+
+  .jv-footer-links a {
+    font-size: 1rem;
+  }
+
+  .jv-footer-cta .cta-group {
+    font-size: 0.9rem;
+  }
+}
