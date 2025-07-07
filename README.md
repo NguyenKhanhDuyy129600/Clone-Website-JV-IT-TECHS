@@ -1,4 +1,4 @@
-https://github.com/NguyenKhanhDuyy129600/Clone-Website-JV-IT-TECHS/blob/main/Video%20Website.mp4 LINK VIDEO WEB
+https://drive.google.com/file/d/1YYB3R0WIeA2nFz1GoL9nVfRMwJ6sa3KZ/view?usp=sharing (LINK VIDEO WEB)
 ĐÂY LÀ FRONT-END WEBSITE JV-IT TECHS EM ĐÃ THỰC HIỆN TRONG 3 NGÀY. EM ĐÃ TÌM HIỂU RẤT NHIỀU VỀ CÔNG TY, VỀ VĂN HÓA, CON NGƯỜI CẢ VỀ QUÁ TRÌNH PHÁT TRIỂN.
 PROJECT NÀY KHÔNG TRỰC TIẾP LIÊN QUAN ĐẾN AI MÀ ĐỂ THỂ HIỆN TINH THẦN CHỦ ĐỘNG VÀ NGHIÊM TÚC CỦA EM CHO VỊ TRÍ NÀY. 
 EM MONG CÓ CƠ HỘI ĐƯỢC TRÒ CHUYỆN SÂU HƠN VỚI ANH CHỊ HR Ạ.
